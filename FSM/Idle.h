@@ -9,7 +9,7 @@ public:
 	Idle() { std::cout << "Idling" << std::endl; };
 	~Idle() {};
 	void climbing(Animation* a);
-	void jumping(Animation* a)
+	void jumping(Animation* a);
 
 };
 #endif

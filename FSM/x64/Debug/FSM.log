@@ -1,2 +1,14 @@
-﻿  main.cpp
-  FSM.vcxproj -> C:\Users\ashle\Documents\GitHub\FSM\x64\Debug\FSM.exe
+﻿  Hammering.cpp
+c:\users\ashle\documents\github\fsm\fsm\hammering.cpp(11): error C2027: use of undefined type 'Animation'
+  c:\users\ashle\documents\github\fsm\fsm\state.h(4): note: see declaration of 'Animation'
+c:\users\ashle\documents\github\fsm\fsm\hammering.cpp(11): error C2227: left of '->setCurrent' must point to class/struct/union/generic type
+  Generating Code...
+  Compiling...
+  Animation.cpp
+  Generating Code...
+  Compiling...
+  main.cpp
+  Jumping.cpp
+  Idle.cpp
+  Climbing.cpp
+  Generating Code...

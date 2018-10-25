@@ -12,10 +12,17 @@ public:
 	void idle();
 	void jumping();
 	void climbing();
+	void hammering();
+	void walking();
+	void shoveling();
+	void swordsmanship();
 };
 #include "State.h"
 #include "Jumping.h"
 #include "Climbing.h"
 #include "Idle.h"
-
+#include "Hammering.h"
+#include "Walking.h"
+#include "Swordsmanship.h"
+#include "Shoveling.h"
 #endif

@@ -5,6 +5,7 @@ class Animation; // forwards referencing
 class State
 {
 public:
+	// default functions for when no previous animation present
 	virtual void idle(Animation* a)
 	{
 		std::cout << "State::Idling" << std::endl;

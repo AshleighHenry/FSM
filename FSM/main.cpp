@@ -19,14 +19,14 @@ int main()
 			// Do Nothing AKA player model runs through idle animation
 			fsm.idle();
 			std::this_thread::sleep_for(std::chrono::milliseconds::duration(1000));
-			input = 1;
+			
 		}
 		else if (input == 2) // climb has been selected
 		{
 			fsm.climbing();
 			std::this_thread::sleep_for(std::chrono::milliseconds::duration(1000));
 			fsm.idle();
-			input = 1; // return model back to default of idle
+			
 		}
 		else if(input == 3) // jump has been selected
 		{
@@ -34,11 +34,11 @@ int main()
 			std::this_thread::sleep_for(std::chrono::milliseconds::duration(1000));
 			fsm.idle();
 			std::this_thread::sleep_for(std::chrono::milliseconds::duration(1000));
-			input = 1; // return model back to default of idle
+			
 		}
 		else if (input == 4)
 		{
-			break; // breaks from loop, closes window
+			run = false;
 		}
 		else
 		{

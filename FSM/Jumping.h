@@ -8,6 +8,6 @@ public:
 	Jumping() { std::cout << "Jumping" << std::endl; };
 	~Jumping() {};
 	
-	void idle(Animation * a);
+	void idle(Animation * a); // goes from jumping to idle
 };
 #endif
